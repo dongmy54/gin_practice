@@ -1,0 +1,28 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /hello                    --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /hellojson                --> main.main.func2 (4 handlers)
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.html
+
+[GIN-debug] GET    /index.html               --> main.main.func3 (4 handlers)
+[GIN-debug] POST   /login                    --> main.main.func4 (4 handlers)
+[GIN-debug] PUT    /user/:id                 --> main.main.func5 (4 handlers)
+[GIN-debug] DELETE /user/:id                 --> main.main.func6 (4 handlers)
+[GIN-debug] GET    /query                    --> main.main.func7 (4 handlers)
+[GIN-debug] POST   /users                    --> main.main.func8 (4 handlers)
+[GIN-debug] POST   /form                     --> main.main.func9 (4 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func10 (4 handlers)
+[GIN-debug] GET    /api/v1/users             --> main.main.func11 (4 handlers)
+[GIN-debug] GET    /api/v2/users             --> main.main.func12 (4 handlers)
+[GIN-debug] GET    /current_user             --> main.main.func13 (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/04/14 - 15:02:47 | 200 |      88.171µs |             ::1 | GET      "/current_user"
