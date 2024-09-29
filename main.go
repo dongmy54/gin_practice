@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"gin_practice/config"
 	"io"
 	"os"
 
@@ -9,6 +10,9 @@ import (
 )
 
 func main() {
+	// 初始化配置
+	config.InitConfig()
+
 	//日志记录到当前目录下development.log文件
 	f, _ := os.Create("development.log")
 	// 同时保留了控制台输出

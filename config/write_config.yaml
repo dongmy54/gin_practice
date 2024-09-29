@@ -1,0 +1,16 @@
+app:
+    debug: false
+    environment: development
+    name: ExampleApp
+database:
+    host: db.example.com
+    name: example_db
+    password: pass
+    port: 5432
+    username: user
+logging:
+    format: text
+    level: info
+server:
+    host: localhost
+    port: 8080

@@ -1,0 +1,19 @@
+app:
+  name: dmyAPP
+  environment: development
+  debug: false
+
+server:
+  port: 8080
+  host: localhost
+
+database:
+  host: db.example.com
+  port: 5432
+  username: user
+  password: pass
+  name: example_db
+
+logging:
+  level: info
+  format: text
